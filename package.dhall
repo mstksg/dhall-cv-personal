@@ -1,1 +1,4 @@
-{ contents = ./contents.dhall, helpers = ./helpers.dhall }
+{ contents = ./contents.dhall
+, helpers = ./helpers.dhall
+, default = ./default.dhall
+}

@@ -1,1 +1,1 @@
-{ contents = ./contents.dhall, healpers = ./helpers.dhall }
+{ contents = ./contents.dhall, helpers = ./helpers.dhall }

@@ -1,9 +1,10 @@
-{ fullTitle = "Justin Le, Ph.D."
-, firstName = "Justin"
-, lastName = "Le"
-, title = "Ph.D."
-, subtitle = "Predictive Analytics, Machine Learning & Data Science"
-, location = "Orange County, CA"
+{ address = "Orange, CA 92869"
+, country = None Text
 , email = "justin@jle.im"
+, firstName = "Justin A."
+, lastName = "Le"
+, phone = "please inquire"
+, street = ""
+, title = Some "Ph.D."
 , website = "https://cv.jle.im"
 }

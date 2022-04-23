@@ -7,5 +7,6 @@
 , skills = ./contents/skills.dhall
 , objectives = ./contents/objectives.dhall
 , info = ./contents/info.dhall
+, header = ./contents/header.dhall
 , links = ./contents/links.dhall
 }

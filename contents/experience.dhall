@@ -1,7 +1,22 @@
 let RawEntry = (../prelude.dhall).helpers.RawEntry
 
-in  { simspace =
-      { desc = Some "2020 - Current"
+in  { google =
+      { desc = Some "2022 - Current"
+      , body =
+          RawEntry
+            { title = "Cloud Data & Machine Learning Engineer"
+            , institution = Some "Google"
+            , location = Some "Irvine, CA"
+            , grade = None Text
+            , body = Some
+                ''
+                Information-theoretical statically verifiable data privacy
+                guarantees in machine learning algorithms and deployments.
+                ''
+            }
+      }
+    , simspace =
+      { desc = Some "2020 - 2022"
       , body =
           RawEntry
             { title = "Senior Software Engineer (Backend)"

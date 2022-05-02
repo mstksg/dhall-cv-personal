@@ -2,7 +2,7 @@
 , country = None Text
 , email = "justin@jle.im"
 , firstName = "Justin A."
-, lastName = "Le"
+, lastName = "Lê"
 , phone = "please inquire"
 , street = ""
 , title = Some "Ph.D."

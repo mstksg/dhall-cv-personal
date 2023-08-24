@@ -11,11 +11,11 @@ in  λ(collection : Collection) →
           , contents = helpers.noTitles types.Markdown collection.objectives
           }
         , { title = Some "Education", contents = collection.education }
-        , { title = Some "Skills"
-          , contents = helpers.mkSkills collection.skills
-          }
         , { title = Some "Selected Work and Research Experience"
           , contents = collection.experience
+          }
+        , { title = Some "Skills"
+          , contents = helpers.mkSkills collection.skills
           }
         , { title = Some "Selected Projects", contents = collection.projects }
         , { title = Some "Selected Publications & Presentations"

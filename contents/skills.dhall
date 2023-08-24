@@ -10,12 +10,21 @@ in  [ { subject = "Computer Science"
             , "Functional programming"
             , "Static analysis"
             , "DSL design"
+            , "Differential Privacy"
             ]
       }
     , { subject = "Languages"
       , skills =
           prelude.helpers.rawMarkdowns
-            [ "C++", "Haskell", "Python", "Matlab", "R", "Ruby", "Fortran" ]
+            [ "Java"
+            , "Haskell"
+            , "Python"
+            , "Matlab"
+            , "R"
+            , "C++"
+            , "Ruby"
+            , "Fortran"
+            ]
       }
     , { subject = "Mathematics"
       , skills =

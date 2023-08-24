@@ -4,7 +4,7 @@ in  { google =
       { desc = Some "2022 - Current"
       , body =
           RawEntry
-            { title = "Cloud Data & Machine Learning Engineer"
+            { title = "Google Ads & Analytics Engineer"
             , institution = Some "Google"
             , location = Some "Irvine, CA"
             , grade = None Text
@@ -12,6 +12,8 @@ in  { google =
                 ''
                 Information-theoretical statically verifiable data privacy
                 guarantees in machine learning algorithms and deployments.
+                Infrastructure for large-scale data analytics pipelines and
+                tooling.
                 ''
             }
       }

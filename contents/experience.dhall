@@ -12,8 +12,13 @@ in  { google =
                 ''
                 Information-theoretical statically verifiable data privacy
                 guarantees in machine learning algorithms and deployments.
-                Infrastructure for large-scale data analytics pipelines and
-                tooling.
+                Robust multi-layered infrastructure for large-scale data
+                analytics pipelines and tooling, involved in all aspects of
+                engineering and product design, algorithm design, maintenance,
+                instrumentation, monitoring, migration, and incident
+                mitigation. Planned and designed systems for a unified
+                abstraction of data extraction and aggregation to and from
+                vendors, sources, and sinks.
                 ''
             }
       }

@@ -1,7 +1,21 @@
 let RawEntry = (../prelude.dhall).helpers.RawEntry
 
-in  { google =
-      { desc = Some "2022 - Current"
+in  { anduril =
+      { desc = Some "2023 - Current"
+      , body =
+          RawEntry
+            { title = "Principal Software Engineer"
+            , institution = Some "Anduril Industries"
+            , location = Some "Costa Mesa, CA"
+            , grade = None Text
+            , body = Some
+                ''
+                Electronic Warfare.
+                ''
+            }
+      }
+    , google =
+      { desc = Some "2022 - 2023"
       , body =
           RawEntry
             { title = "Google Ads & Analytics Engineer"
@@ -15,10 +29,10 @@ in  { google =
                 Robust multi-layered infrastructure for large-scale data
                 analytics pipelines and tooling, involved in all aspects of
                 engineering and product design, algorithm design, maintenance,
-                instrumentation, monitoring, migration, and incident
-                mitigation. Planned and designed systems for a unified
-                abstraction of data extraction and aggregation to and from
-                vendors, sources, and sinks.
+                instrumentation, monitoring, migration, incident mitigation,
+                and SLO stress-test infrastructure. Planned and designed
+                systems for a unified abstraction of data extraction and
+                aggregation to and from vendors, sources, and sinks.
                 ''
             }
       }

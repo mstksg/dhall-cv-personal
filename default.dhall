@@ -8,7 +8,8 @@ in    { objectives = contents.objectives
       , education = contents.education
       , skills = contents.skills
       , experience =
-        [ contents.experience.google
+        [ contents.experience.anduril
+        , contents.experience.google
         , contents.experience.simspace
         , contents.experience.sdge
         , contents.experience.intela

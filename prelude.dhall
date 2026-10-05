@@ -1,6 +1,6 @@
 let cv =
       https://github.com/mstksg/dhall-cv/raw/v2.3.0/package.dhall
-        sha256:64ff299d707ce05679e38f73b25cb246e91168358151ac9a9affbcb317d55e76
+        sha256:0faa0f7a67a124d97790fd3535eadf09d7e845ae618b72999655384adbb0822c
 
 let types = cv.types
 

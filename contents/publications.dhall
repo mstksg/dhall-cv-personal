@@ -1,4 +1,14 @@
-{ atmos2017 =
+{ dissertation =
+  { subject = "Geoscience & Machine Learning"
+  , author = "J. A. Le"
+  , secondary = None (List Text)
+  , title =
+      "Learning-Based Modeling of Weather and Climate Events Related to El Niño Phenomenon via Differentiable Programming and Empirical Decompositions"
+  , journal =
+      "Ph.D. Dissertation, Chapman University <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F4S9Wm8AAAAJ&citation_for_view=F4S9Wm8AAAAJ:2osOgNQ5qMEC>"
+  , year = "2021"
+  }
+, atmos2017 =
   { subject = "Geoscience & Machine Learning"
   , author = "J. A. Le"
   , secondary = Some

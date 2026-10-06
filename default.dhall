@@ -21,7 +21,8 @@ in    { objectives = contents.objectives
         , contents.projects.blog
         ]
       , publications =
-        [ contents.publications.atmos2017
+        [ contents.publications.dissertation
+        , contents.publications.atmos2017
         , contents.publications.functional
         , contents.publications.regexp
         , contents.publications.aogs2016

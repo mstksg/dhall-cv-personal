@@ -24,6 +24,5 @@ in  λ(collection : Collection) →
         , { title = Some "Teaching and Leadership"
           , contents = helpers.mkTeachings types.Markdown collection.teaching
           }
-        , { title = Some "Selected Coursework", contents = collection.courses }
         ]
       : List (types.CVSection types.Markdown)

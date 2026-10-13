@@ -2,27 +2,19 @@ let cv = (../prelude.dhall).cv
 
 let types = cv.types
 
-let helpers = cv.helpers
+let sections = ./sections.dhall
 
 let Collection = ./Collection.dhall
 
 in  λ(collection : Collection) →
-        [ { title = Some "Objectives"
-          , contents = helpers.noTitles types.Markdown collection.objectives
-          }
-        , { title = Some "Education", contents = collection.education }
-        , { title = Some "Selected Work and Research Experience"
-          , contents = collection.experience
-          }
-        , { title = Some "Skills"
-          , contents = helpers.mkSkills collection.skills
-          }
-        , { title = Some "Selected Projects", contents = collection.projects }
-        , { title = Some "Selected Publications & Presentations"
-          , contents = helpers.mkPublications collection.publications
-          }
-        , { title = Some "Teaching and Leadership"
-          , contents = helpers.mkTeachings types.Markdown collection.teaching
-          }
-        ]
-      : List (types.CVSection types.Markdown)
+      let s = sections collection
+
+      in    [ s.objectives
+            , s.education
+            , s.experience
+            , s.skills
+            , s.projects
+            , s.publications
+            , s.teaching
+            ]
+          : List (types.CVSection types.Markdown)

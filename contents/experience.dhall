@@ -10,7 +10,7 @@ in  { anduril =
             , grade = None Text
             , body = Some
                 ''
-                Electronic Warfare.
+                EW.
                 ''
             }
       }

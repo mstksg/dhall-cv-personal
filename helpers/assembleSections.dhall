@@ -7,7 +7,10 @@ let helpers = cv.helpers
 let Collection = ./Collection.dhall
 
 in  λ(collection : Collection) →
-        [ { title = Some "Education", contents = collection.education }
+        [ { title = Some "Objectives"
+          , contents = helpers.noTitles types.Markdown collection.objectives
+          }
+        , { title = Some "Education", contents = collection.education }
         , { title = Some "Selected Work and Research Experience"
           , contents = collection.experience
           }
